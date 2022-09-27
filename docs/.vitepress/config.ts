@@ -19,6 +19,8 @@ export default defineConfig({
             { text: "说明", link: "/utils/" },
             { text: "缓存处理", link: "/utils/storage/storage" },
             { text: "树型数据及扁平数据互相转化", link: "/utils/recursion" },
+            { text: "防抖函数", link: "/utils/debounce" },
+            { text: "节流函数", link: "/utils/throttle" },
           ]
         }
       ],
