@@ -15,6 +15,7 @@ export default defineConfig({
           text: '方法',
           items: [
             { text: "cookies", link: "/utils/cookies" },
+            { text: "树型数据及扁平数据互相转化", link: "/utils/recursion" },
           ]
         }
       ],
