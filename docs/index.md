@@ -14,14 +14,10 @@ hero:
     - theme: alt
       text: utils
       link: /utils/
-    - theme: alt
-      text: other
-      link: /other/
 features:
   - icon: 
     title: 
     details: 纸上得来终觉浅，绝知此事要躬行
-    center: true
 ---
 
 <script setup>
