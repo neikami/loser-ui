@@ -1,3 +1,4 @@
+
 const caching = {
     cookie: {
         set: (key, value, exdays) => {
@@ -87,5 +88,4 @@ const caching = {
         }
     },
 }
-
 export default caching

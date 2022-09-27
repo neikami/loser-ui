@@ -93,15 +93,21 @@ const caching = {
 
 export default caching
 ```
-<script setup>
+### 使用方法
+```html
+<script>
 import caching from './storage.ts'
+
 caching.local.set('local', 'local');
 console.log(caching.local.get('local'));
 caching.local.remove('local');
+
 caching.session.set('session', 'session');
 console.log(caching.session.get('session'));
 caching.session.remove('session');
+
 caching.cookie.set('cookie', 'cookie', 1);
 console.log(caching.cookie.get('cookie'));
 caching.cookie.remove('cookie');
 </script>
+```
