@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
   title: "loser-ui",
-  description: "hello world",
+  description: "",
   base: "",
   lastUpdated: true,
   themeConfig: {
@@ -24,6 +24,15 @@ export default defineConfig({
             { text: "防抖函数", link: "/utils/debounce" },
             { text: "节流函数", link: "/utils/throttle" },
             { text: "获取一段时期内的天数", link: "/utils/daysOfPeriod" },
+          ]
+        }
+      ],
+      "/components/": [
+        {
+          text: '组件',
+          items: [
+            { text: "说明", link: "/components/" },
+            { text: "按钮", link: "/components/button/button" },
           ]
         }
       ],
