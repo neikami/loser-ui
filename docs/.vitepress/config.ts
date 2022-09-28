@@ -23,6 +23,7 @@ export default defineConfig({
             { text: "树型数据及扁平数据互相转化", link: "/utils/recursion" },
             { text: "防抖函数", link: "/utils/debounce" },
             { text: "节流函数", link: "/utils/throttle" },
+            { text: "获取一段时期内的天数", link: "/utils/daysOfPeriod" },
           ]
         }
       ],
