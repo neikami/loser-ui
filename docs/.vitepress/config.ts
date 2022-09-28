@@ -18,6 +18,8 @@ export default defineConfig({
           items: [
             { text: "说明", link: "/utils/" },
             { text: "缓存处理", link: "/utils/storage/storage" },
+            { text: "正则", link: "/utils/reg/reg" },
+            { text: "日期处理", link: "/utils/date/date" },
             { text: "树型数据及扁平数据互相转化", link: "/utils/recursion" },
             { text: "防抖函数", link: "/utils/debounce" },
             { text: "节流函数", link: "/utils/throttle" },
